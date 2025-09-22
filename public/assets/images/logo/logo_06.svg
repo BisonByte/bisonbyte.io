@@ -1,6 +1,27 @@
-<svg width="57" height="54" viewBox="0 0 57 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="57" height="54" fill="black"/>
-<path d="M18.0657 35.2069H34.2413L28.7554 29H13.2068L18.0657 35.2069Z" fill="white"/>
-<path d="M29.8036 32.2069L13.319 12H34.0132C37.5832 12 40.8881 13.884 42.707 16.9558C46.6948 23.6908 41.8403 32.2069 34.0132 32.2069H29.8036Z" stroke="white" stroke-width="6"/>
-<path d="M36.3104 45.8969L27.6897 34.5176H35.2759L43.8966 45.8969H36.3104Z" fill="white"/>
+<svg width="180" height="64" viewBox="0 0 180 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dropGradient" x1="14" y1="2" x2="58" y2="62" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="glossGradient" x1="20" y1="8" x2="46" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="dropShadow" x="0" y="0" width="80" height="80" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="normal"/>
+    </filter>
+  </defs>
+  <g filter="url(#dropShadow)">
+    <path d="M34 2C22 2 12 12.5 12 25.8C12 39.3 20.6 48.5 34 58C47.4 48.5 56 39.3 56 25.8C56 12.5 46 2 34 2Z" fill="url(#dropGradient)"/>
+  </g>
+  <path d="M34 6C24.5 6 17 13.1 17 23.8C17 34.1 23.4 41 32.8 48.4C33.5 48.9 34.5 48.9 35.2 48.4C44.6 41 51 34.1 51 23.8C51 13.1 43.5 6 34 6Z" fill="url(#glossGradient)"/>
+  <path d="M26 17H35.5C41.1 17 45 20.8 45 26.6C45 32 40.7 35.7 35.1 35.7H32.7L43.6 47H33.5L23 35.4V17H26ZM32.4 30.7H35.2C37.6 30.7 39.1 29.3 39.1 26.8C39.1 24.2 37.6 22.8 35.2 22.8H32.4V30.7Z" fill="white"/>
+  <circle cx="48" cy="18" r="5" fill="#93C5FD" fill-opacity="0.5"/>
+  <circle cx="43" cy="12" r="2.2" fill="white" fill-opacity="0.9"/>
+  <text x="78" y="33" font-family="'Poppins','Segoe UI',sans-serif" font-size="28" font-weight="600" fill="#0F172A">iku</text>
+  <text x="78" y="47" font-family="'Poppins','Segoe UI',sans-serif" font-size="12" font-weight="500" letter-spacing="0.16em" fill="#64748B">digital studio</text>
 </svg>

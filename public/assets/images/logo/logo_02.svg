@@ -1,8 +1,27 @@
-<svg width="89" height="39" viewBox="0 0 89 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M74.8135 23.0479H79.1815V31.3919C79.1815 33.1559 79.9935 34.2479 81.7575 34.2479C83.5215 34.2479 84.4455 33.0439 84.4455 31.3919V23.0479H88.8135V37.9999H84.5015V36.1519H84.4735C83.4935 37.5799 82.0935 38.3079 80.3015 38.3079C78.5375 38.3079 77.1655 37.7479 76.2135 36.6279C75.2895 35.4799 74.8135 34.0799 74.8135 32.4279V23.0479Z" fill="black"/>
-<path d="M61.9857 30.9162V38.0002H57.6177V15.1802H61.9857V28.9282L67.1657 23.0482H72.7377L66.7177 29.9362L72.9057 38.0002H67.3897L62.0977 30.9162H61.9857Z" fill="black"/>
-<path d="M51.3516 15.124C52.8916 15.124 54.0956 16.3 54.0956 17.84C54.0956 19.324 52.8916 20.528 51.3516 20.528C49.8956 20.528 48.6636 19.324 48.6636 17.84C48.6636 16.356 49.8956 15.124 51.3516 15.124ZM53.5916 38H49.1956V23.048H53.5916V38Z" fill="black"/>
-<path d="M11.066 26.2069H27.2415L21.7556 20H6.20703L11.066 26.2069Z" fill="black"/>
-<path d="M22.8036 23.2069L6.31901 3H27.0132C30.5832 3 33.8881 4.88396 35.707 7.95582C39.6948 14.6908 34.8403 23.2069 27.0132 23.2069H22.8036Z" stroke="black" stroke-width="6"/>
-<path d="M29.3101 36.8969L20.6895 25.5176H28.2757L36.8963 36.8969H29.3101Z" fill="black"/>
+<svg width="180" height="64" viewBox="0 0 180 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dropGradient" x1="14" y1="2" x2="58" y2="62" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="glossGradient" x1="20" y1="8" x2="46" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="dropShadow" x="0" y="0" width="80" height="80" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="normal"/>
+    </filter>
+  </defs>
+  <g filter="url(#dropShadow)">
+    <path d="M34 2C22 2 12 12.5 12 25.8C12 39.3 20.6 48.5 34 58C47.4 48.5 56 39.3 56 25.8C56 12.5 46 2 34 2Z" fill="url(#dropGradient)"/>
+  </g>
+  <path d="M34 6C24.5 6 17 13.1 17 23.8C17 34.1 23.4 41 32.8 48.4C33.5 48.9 34.5 48.9 35.2 48.4C44.6 41 51 34.1 51 23.8C51 13.1 43.5 6 34 6Z" fill="url(#glossGradient)"/>
+  <path d="M26 17H35.5C41.1 17 45 20.8 45 26.6C45 32 40.7 35.7 35.1 35.7H32.7L43.6 47H33.5L23 35.4V17H26ZM32.4 30.7H35.2C37.6 30.7 39.1 29.3 39.1 26.8C39.1 24.2 37.6 22.8 35.2 22.8H32.4V30.7Z" fill="white"/>
+  <circle cx="48" cy="18" r="5" fill="#93C5FD" fill-opacity="0.5"/>
+  <circle cx="43" cy="12" r="2.2" fill="white" fill-opacity="0.9"/>
+  <text x="78" y="33" font-family="'Poppins','Segoe UI',sans-serif" font-size="28" font-weight="600" fill="#0F172A">iku</text>
+  <text x="78" y="47" font-family="'Poppins','Segoe UI',sans-serif" font-size="12" font-weight="500" letter-spacing="0.16em" fill="#64748B">digital studio</text>
 </svg>

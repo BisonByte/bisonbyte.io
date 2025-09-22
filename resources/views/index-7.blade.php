@@ -1,8 +1,20 @@
 @extends('partials.main')
 
 @section('css')
+<style>
+    .theme-main-menu .logo img,
+    .sidebar-nav .logo img {
+        max-width: 150px;
+        height: auto;
+    }
+    @media (max-width: 991px) {
+        .theme-main-menu .logo img {
+            max-width: 130px;
+        }
+    }
+</style>
+@endsection
 
- @endsection
 
 @section('main')
 	<div class="main-page-wrapper bg-five">
@@ -13,8 +25,8 @@
 			<div id="ctn-preloader" class="ctn-preloader">
 				<div class="icon"><img src="{{ URL::asset('assets/images/loader.svg') }}" alt="" class="m-auto d-block"> <span></span></div>
 				<div class="txt-loading">
-					<span data-text-preloader="P" class="letters-loading">
-						P
+					<span data-text-preloader="R" class="letters-loading">
+						R
 					</span>
 					<span data-text-preloader="I" class="letters-loading">
 						I
